@@ -22,8 +22,7 @@ function reqPost (request, response) {
 
         request.on('end', function () {
 			var post = qs.parse(body);
-			var sInsert = "INSERT INTO individuals (first_name, last_name, middle_name, passport, taxpayer_number, insurance_number, driver_licence, extra_documents, notes) VALUES 
-				(\""+post['col1']+"\",\""+post['col2']+"\",\""+post['col3']+"\",\""+post['col4']+"\",\""+post['col5']+"\",\""+post['col6']+"\",\""+post['col7']+"\",\""+post['col8']+"\",\""+post['col9']+"\")";
+			var sInsert = "INSERT INTO individuals (first_name, last_name, middle_name, passport, taxpayer_number, insurance_number, driver_licence, extra_documents, notes) VALUES (\""+post['col1']+"\",\""+post['col2']+"\",\""+post['col3']+"\",\""+post['col4']+"\",\""+post['col5']+"\",\""+post['col6']+"\",\""+post['col7']+"\",\""+post['col8']+"\",\""+post['col9']+"\")";
 			var results = connection.query(sInsert);
             console.log('Done. Hint: '+sInsert);
         });
