@@ -46,7 +46,7 @@ CREATE TABLE loans (
   borrower_id INT NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (individual_id) REFERENCES individuals(id),
-  FOREIGN KEY (borrower_id) REFERENCES borrowers(id)
+  FOREIGN KEY (borrower_id) REFERENCES borrowers(borrower_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
 
 CREATE TABLE companies_loans (
