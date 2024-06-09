@@ -8,9 +8,9 @@ CREATE TABLE individuals (
   last_name VARCHAR(30) NOT NULL,
   middle_name VARCHAR(30),
   passport VARCHAR(10) NOT NULL,
-  taxpayer_number VARCAHR(12) NOT NULL,
-  insurance_number VARCAHR(11) NOT NULL,
-  driver_licence VARCAHR(10),
+  taxpayer_number VARCHAR(12) NOT NULL,
+  insurance_number VARCHAR(11) NOT NULL,
+  driver_licence VARCHAR(10),
   extra_documents VARCHAR(255),
   notes VARCHAR(255),
   PRIMARY KEY (id)
