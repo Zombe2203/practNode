@@ -32,7 +32,7 @@ CREATE TABLE borrowers (
   conditions VARCHAR(255) NOT NULL,
   legal_notes VARCHAR(255),
   contracts_list VARCHAR(255),
-  PRIMARY KEY (id)
+  PRIMARY KEY (borrower_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
 
 CREATE TABLE loans (
