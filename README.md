@@ -3,7 +3,7 @@
 
 Внешний вид главного окна представлен далее.
 
-![image](https://user-images.githubusercontent.com/10297748/230503674-84807929-9e4c-4de7-b97d-7676b2de80b5.png)
+![image](https://github.com/Zombe2203/practNode/assets/55375050/83d50340-0bf1-41c2-a265-705477f212ba)
 
 Пример не требует Web-сервера. Достаточно установить Node.js, отредактировать пути в файле app.js, запустить файл run_server.bat, открыть страницу http://127.0.0.1:3000/
 
