@@ -5,7 +5,7 @@ CREATE DATABASE bank;
 CREATE TABLE individuals (
   id INT NOT NULL AUTO_INCREMENT,
   first_name VARCHAR(30) NOT NULL,
-  last_name VARCAHR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
   middle_name VARCHAR(30),
   passport VARCHAR(10) NOT NULL,
   taxpayer_number VARCAHR(12) NOT NULL,
